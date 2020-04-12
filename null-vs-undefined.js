@@ -19,3 +19,5 @@ console.log(fun);
 //Attempt to access array element that doesn't exist
 const arr = [12,41,3,5];
 console.log(arr[15]);
+
+//we can set value to null when necessary

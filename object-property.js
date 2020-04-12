@@ -12,6 +12,11 @@ const names = students.map(s =>s.name);
 newArray2.push(names);
 console.log(newArray2);
 
+//let's try to push another object into the array
+const obj = {roll:43,address:"Swamibagh"};
+students.push(obj);
+console.log(students);
+
 //To show more specific elements from the array 
 const guilt = students.filter(x => x.id < 30);
 console.log("Id's < 30 are : ",guilt);
